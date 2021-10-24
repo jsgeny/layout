@@ -226,7 +226,7 @@ body {
 }
 .fon_right_two::after {
     content: "";
-    background: right 50% no-repeat  url(img/Mask\ Group.jpg);
+    background: right 50% no-repeat  url(img/Mask_Group.jpg);
     position: absolute;
     width: 708px;
     height: 824px;
@@ -314,7 +314,7 @@ body {
 /*                  start menu               */
 /* ========================================= */
 .header {
-    background: center /100% no-repeat  url(img/Screenshot\ 2020.png) ;
+    background: center /100% no-repeat  url(img/Screenshot_2020.png) ;
     background-size: cover;
     position: relative;
     height: 100%;
