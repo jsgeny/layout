@@ -8,12 +8,12 @@ tab.forEach(function(element){
 });
  
 function showTabs(){
-    let data = this.getAttribute('data');
+    let dataTab = this.getAttribute('data-tab');
     let tabBody = document.querySelectorAll('.tabs__block');
     for(let i = 0; i < tabBody.length; i++){  
         tabBody[i].style.display = 'none'; 
     };
-    document.querySelector(`.tabs__block[data="${data}"]`).style.display = 'block';
+    document.querySelector(`.tabs__block[data-tab="${dataTab}"]`).style.display = 'block';
 
     for(let i = 0; i < tab.length; i++){
         tab[i].style.background = '#fff';
@@ -35,12 +35,12 @@ tab2.forEach(function(element){
 });
  
 function showTabs2(){
-    let data = this.getAttribute('data');
+    let dataTab = this.getAttribute('data-tab');
     let tabBody = document.querySelectorAll('.tabs__block_2');
     for(let i = 0; i < tabBody.length; i++){ 
         tabBody[i].style.display = 'none';  
     };
-    document.querySelector(`.tabs__block_2[data="${data}"]`).style.display = 'block';
+    document.querySelector(`.tabs__block_2[data-tab="${dataTab}"]`).style.display = 'block';
 
     for(let i = 0; i < tab2.length; i++){
         tab2[i].style.background = '#fff';
